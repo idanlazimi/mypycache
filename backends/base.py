@@ -16,3 +16,7 @@ class CacheBackend(ABC):
     @abstractmethod
     def clear(self):
         pass
+    
+    @abstractmethod
+    def __len__(self):
+        pass
